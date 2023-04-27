@@ -16,7 +16,9 @@ public class Fanction {
         for (Criteria criteria : criterias) {
             Object valNB = null;
 
-            if () {
+            if (criteria.property.equals("name")) {
+                valNB = noteBook.getName();
+            }else if (condition) {
                 
             }
         }
@@ -26,9 +28,13 @@ public class Fanction {
         this.noteBooks = noteBooks;
         this.criterias = criterias;
     }
+
+    // ?????
+
+    public int getC
 }
 
-public class Criteria {
+class Criteria {
     Object value;
     Double minValue;
     Double maxValue;
@@ -42,7 +48,7 @@ public class Criteria {
         this.maxValue = maxValue;
         this.minValue = minValue;
     }
-    
+
 
     
 }
