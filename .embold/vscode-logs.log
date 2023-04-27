@@ -1,3 +1,29 @@
 2023-04-26 20:43:44 info: tempDirectory:c:\Users\BARADED\.vscode\extensions\embold-vscode.embold-0.1.4\temp
 2023-04-26 20:43:44 info: Extraction complete for source: c:\Users\BARADED\.vscode\extensions\embold-vscode.embold-0.1.4\resources\embold-scanner-archive.zip, destination: c:\Users\BARADED\.vscode\extensions\embold-vscode.embold-0.1.4\temp
 2023-04-26 20:43:44 info: Congratulations, your extension "Embold" is now active!
+2023-04-26 20:55:20 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/.git/tMPFcXQ
+2023-04-26 20:55:20 error: SQLITE_ERROR: no such table: issues
+2023-04-26 20:58:12 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/.git/index.lock
+2023-04-26 20:58:12 error: SQLITE_ERROR: no such table: issues
+2023-04-26 20:58:31 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/.git/index.lock
+2023-04-26 20:58:31 error: SQLITE_ERROR: no such table: issues
+2023-04-26 20:58:42 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/.git/index.lock
+2023-04-26 20:58:42 error: SQLITE_ERROR: no such table: issues
+2023-04-26 21:00:17 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/.git/logs/refs/heads/master
+2023-04-26 21:00:17 error: SQLITE_ERROR: no such table: issues
+2023-04-26 21:00:17 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/.git/refs/heads/master
+2023-04-26 21:00:17 error: SQLITE_ERROR: no such table: issues
+2023-04-26 21:00:28 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/.git/config.lock
+2023-04-26 21:00:28 error: SQLITE_ERROR: no such table: issues
+2023-04-26 21:03:24 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/main.java
+2023-04-26 21:03:24 error: SQLITE_ERROR: no such table: issues
+2023-04-26 21:13:25 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/general.java
+2023-04-26 21:13:25 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/general.java
+2023-04-26 21:13:25 error: SQLITE_ERROR: no such table: issues
+2023-04-26 21:13:25 error: SQLITE_ERROR: no such table: issues
+2023-04-26 21:13:47 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/fanction.java
+2023-04-26 21:13:47 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/fanction.java
+2023-04-26 21:13:47 error: SQLITE_ERROR: no such table: issues
+2023-04-26 21:13:47 error: SQLITE_ERROR: no such table: issues
+2023-04-26 21:14:33 info: file:///g%3A/%21%21%21%21%21%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95/Java/Java_home/Java_home_6/note_book.java
+2023-04-26 21:14:33 error: SQLITE_ERROR: no such table: issues
