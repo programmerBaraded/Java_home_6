@@ -73,7 +73,7 @@ public class Fanction {
         return descriptionsChoise.get(choise);
     }
 
-    public Map<String, String> descriptionsChoise(){
+    public Map<String, String> descriptionsChoice(){
         Map<String, String> map = new HashMap<>();
         map.put("name", "pass");
         map.put("RAM", "RAM");
@@ -139,6 +139,25 @@ public class Fanction {
 
         return set;
     }
+
+    public Set<String> stringSelection(){
+        Set<String> set = new HashSet<>();
+        set.add("name");
+        set.add("model");
+        set.add("color");
+        set.add("operationSys");
+        return set;
+    }
+    public String getPoll(){
+        String text = "Выберите опрерацию: \n " +
+        "1. Добавить критерий \n " +
+        "2. Вывести список \n " +
+        "3. Завершить";
+        System.out.println(text);
+        String answer = scan.next();
+        return answer;
+    }
+    
 }
 
 class Criteria {
@@ -168,11 +187,33 @@ class Criteria {
             Criteria criteria = null;
 
             if (text.equals("1")) {
-                System.out.println("pass");
+                System.out.println("Введите значение поиска: ");
+                int getValue = scan.nextInt();
+                criteria = new Criteria(choce, isNum, getValue, null, null);
             }
+            else if (text.equals("2")) {
+                System.out.println("Введите максимальное предельное значение: ");
+                double getValue = scan.nextDouble();
+                criteria = new Criteria(choce, isNum, null, null, getValue);
+            }
+            else if (text.equals("3")) {
+                System.out.println("Введите минимальное предельное значение: ");
+                double getValue = scan.nextDouble();
+                criteria = new Criteria(choce, isNum, null, getValue, null);
+            } else if (text.equals("4")) {
+                System.out.println("Введите минимальное предельное значение: ");
+                double getMin = scan.nextDouble();
+                System.out.println("Введите максимальное предельное значение: ");
+                double getMax = scan.nextDouble();
+                criteria = new Criteria(choce, isNum, null, getMin, getMax);
+            }
+
+            return criteria;
         }
+
+        System.out.println("Введите значение поиска: ");
+        String getValue = scan.next();
+        return new Criteria(choce, isNum, getValue, null, null);
     }
-
-
-    
+       
 }
