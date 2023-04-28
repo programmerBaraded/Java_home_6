@@ -1,8 +1,6 @@
-import java.awt.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
 
 public class NoteBook {
     public NoteBook(String name, int RAM, String operationSys, int HDD, String model, String color) {
@@ -40,7 +38,10 @@ public class NoteBook {
 
     @Override
     public String toString() {
-        return "out text!!!";
+        return "Ноутбук: (" + name + "): " +
+        "с опретивной памятью:" + RAM + ", энергозависимой памятью: " 
+        + HDD + ", операционная система: " + operationSys + '\'' +
+        ", цвет: " + color + ", модель: " + model;
     }
 
     public String getName(){

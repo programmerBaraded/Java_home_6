@@ -57,7 +57,7 @@ public class Fanction {
     }
 
     public int getCriteria(){
-        String text = "text";
+        String text = "Выберете пункт меню: ";
         List<String> choice = choiceFilter();
 
         for (int i = 0; i < choice.size(); i++) {
@@ -75,12 +75,12 @@ public class Fanction {
 
     public Map<String, String> descriptionsChoice(){
         Map<String, String> map = new HashMap<>();
-        map.put("name", "pass");
-        map.put("RAM", "RAM");
-        map.put("HDD", "HDD");
-        map.put("color", "pass");
-        map.put("model", "model");
-        map.put("operationSys", "pass");
+        map.put("name", "Наименование");
+        map.put("RAM", "Объем оперативной памяти RAM");
+        map.put("HDD", "Объем энергозависимой памяти HDD");
+        map.put("color", "Цвет ноутбука");
+        map.put("model", "Модель ноутбука");
+        map.put("operationSys", "Операционная система");
         return map;
 
     }
